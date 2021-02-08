@@ -7,7 +7,7 @@ import Produtos from './Pages/Produto/Produtos';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/fetch-product-react">
       <Header />
       <Switch>
         <Route exact path="/">
